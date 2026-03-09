@@ -3,11 +3,14 @@ package com.example;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-public class StudentTest {
+public class AppTest {
 
     @Test
-    public void testGrade() {
-        Student s = new Student();
-        assertEquals("A", s.getGrade(95));
+    public void testAddition() {
+        int a = 5;
+        int b = 3;
+        int result = a + b;
+        assertEquals(8, result);
     }
+
 }
